@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
  * main - prints single digit base numbers from 0
+ *
  * Description: using the main function
- * this program prints "Programming is singke digit number starting from 0"
+ * this program prints "Programming is single digit base numbers from 0
  * Return: 0
- */int main(void)
+ */
+int main(void)
 {
 	int n;
 
@@ -13,5 +15,5 @@
 		putchar(n);
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
