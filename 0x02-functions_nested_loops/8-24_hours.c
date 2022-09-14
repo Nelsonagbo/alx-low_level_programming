@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - function that prints every minute of jack bauer life
- * n from 00:00 to 23:59, minutes loop counts loop, while hour loop counts hours
+ * n from 00:00 to 23:59, minutes loop count loop, while hour loop counts hours
  * and resets mins
  * Return: 0
  */
@@ -18,7 +18,7 @@ void jack_bauer(void)
 		{
 			mins_remainder = minutes % 10;
 			hours_remainder = hours % 10;
-			_putchar(hours /10 + '0');
+			_putchar(hours / 10 + '0');
 			_putchar(hours_remainder + '0');
 			_putchar(':');
 			_putchar(minutes / 10 + '0');
