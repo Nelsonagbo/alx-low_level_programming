@@ -2,7 +2,7 @@
 
 /**
  * infinite_add - adds two numbers
- * infinite_add - adds two numbers
+ * @n1: first number
  * @n2: second number
  * @r: buffer for result
  * @size_r: buffer size
@@ -32,7 +32,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			break;
 		}
 		m = n / 10;
-		r[k] = n % 10 + '0
+		r[k] = n % 10 + '0';
 	}
 	r[k] = '\0';
 	if (i >= 0 || j >= 0 || m)
