@@ -1,10 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-/**
- * void prototypes()
- * int prototypes()
- */
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
 
 int _putchar(char);
 char *_memset(char *s, char b, unsigned int n);
@@ -17,4 +12,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif /*MAIN_H*/
+#endif
